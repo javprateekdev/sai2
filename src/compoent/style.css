@@ -1,0 +1,110 @@
+.rmdp-day span {
+    border-radius: 50%;
+    bottom: 3px;
+    font-size: 16px!important;
+    left: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+  }
+  
+  
+  
+  .rmdp-header {
+    font-size: 18px! important;
+    height: 35px;
+    line-height: 37px;
+    margin-top: 5px;
+  }
+  .rmdp-week-day {
+    color: #0074d9;
+    cursor: default;
+    font-size: 14px! important;
+    font-weight: 500;
+  }
+  .hide {
+    display: none;
+  }
+      
+  .available:hover + .hide {
+    display: block;
+    color: red;
+  }
+  .rmdp-input {
+    border: 1px solid #ca5202f6!important;
+    border-radius: 25px !important;
+    height: 30px!important;
+    margin: 1px 0;
+    font-size: 14px;
+  }
+  
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */;
+    height:200px;
+    margin-left:15px;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 18px !important;
+    line-height: 1;
+    opacity: .75;
+    color: #ca5202f6 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .c{
+    position:relative;
+    background:#fff;
+    max-height:200px;
+    float:left;
+    width:300px;
+    height:300px;
+    overflow:hidden;
+    overflow-y:hidden;
+  }
+  .card-home{
+    position:absolute;
+    margin:2px;
+      top:0;
+        animation: scroll 10s linear 1s infinite;
+  }
+  .c span {
+    min-width:280px;
+    min-height:40px;
+    display:block;
+    color:#3a3a3a;
+    margin:5px;
+    background:#fff;
+    border-radius: 20px;
+    padding:10px;
+    font-size: 18px;
+  }
+  @keyframes scroll {
+      100% { top: -100%; }
+  }
+  .css-1ovpz64-MuiSvgIcon-root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 25px !important;
+    height: 25px;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    font-size: 40px;
+    color: #ca5202f6;
+    margin-top: -5px !important;
+  }

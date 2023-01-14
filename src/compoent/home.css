@@ -1,0 +1,35 @@
+.leftside{
+width:78%;
+height:100vh;
+display:block;
+margin-top:30px;
+margin:5px;
+}
+
+.rightside{
+    width:20%;
+    height:100vh;
+    display:block;
+    margin-top:30px;
+    margin:5px;
+    padding:35px
+    
+}
+
+@media screen and (max-width: 620px) {
+    .leftside{
+        margin-top: 50px;
+        width:100%;
+        height:50vh;
+        display:none;
+        }
+  
+        .rightside{
+           
+            width:100%;
+            height:100vh;
+            display:block;
+        }
+  
+    
+  }
